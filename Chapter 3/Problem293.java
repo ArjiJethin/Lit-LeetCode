@@ -3,9 +3,9 @@ import java.util.ArrayList;
 
 public class Problem293 {
     public static void main(String[] args) {
-        // Example usage
         String currentState = "++++";
         Solution solution = new Solution();
+        // Example usage
         List<String> result = solution.generatePossibleNextMoves(currentState);
         System.out.println(result); // Expected output: ["--++", "+--+", "++--"]
     }
