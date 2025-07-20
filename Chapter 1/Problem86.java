@@ -14,8 +14,8 @@ public class Problem86 {
 
 class Solution {
     public ListNode partition(ListNode head, int x) {
-        ListNode d1 = new ListNode();
-        ListNode d2 = new ListNode();
+        ListNode d1 = new ListNode(0);
+        ListNode d2 = new ListNode(0);
         ListNode t1 = d1, t2 = d2;
         while (head != null) {
             if (head.val < x) {
