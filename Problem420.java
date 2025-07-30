@@ -74,7 +74,9 @@ class Solution {
     }
 
     private int countTypes(String s) {
-        int a = 0, b = 0, c = 0;
+        int a = 0;
+        int b = 0;
+        int c = 0;
         for (char ch : s.toCharArray()) {
             if (Character.isLowerCase(ch)) {
                 a = 1;
